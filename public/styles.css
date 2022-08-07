@@ -5,9 +5,6 @@ body {
   margin: 0px;
 }
 
-body {
-}
-
 .centered {
   display: flex;
   flex-direction: column;
