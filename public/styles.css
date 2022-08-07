@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1444080748397-f442aa95c3e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80");
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #36393f;
+  border-radius: 15px;
+  height: 130px;
+  padding: 5px;
+}
+
+.highlight {
+  color: #fffb00;
+}
+
+h2 {
+  margin-top: 11px;
+  font-family: "Ubuntu";
+  font-size: 2.8vw;
+  color: white;
+  text-align: center;
+}
+
+.social {
+  display: block;
+}
+
+.icon {
+  font-size: 4vw;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  top: -20px;
+  margin-left: 8px;
+  margin-right: 8px;
+  color: #ffffff;
+  transition: 250ms;
+}
+
+.icon:hover {
+  color: #fffb00;
+}
